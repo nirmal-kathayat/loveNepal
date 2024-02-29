@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+/* ...style category... */
+.container-category {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    margin-left: 4rem;
+    margin-top: 5.5rem;
+    border-radius: 5px;
+}
+
+.form-wrapper {
+    margin-bottom: 20px;
+    margin-left: 1.5rem;
+}
+
+.category-input {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-text {
+    width: 83.5%;
+    padding: 11px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+}
+
+.validation-error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 8px;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn-wrapper{
+    display: flex;
+    margin-left: -5.5rem;
+    margin-top: 3rem;
+}
+
+.submit-btn {
+    background-color: #4c9db9;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+}
+
+.submit-btn:hover {
+    background-color: #e43538;
+    cursor: pointer;
+}
+.back-btn{
+    margin-left: -5.5rem;
+}
+
+.back-btn a {
+    text-decoration: none;
+    color: #3498db;
+    background-color: #c93030;
+    color: white;
+    padding: 10px 59px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 7rem;
+    margin-top: 1.5rem;
+}
+
+textarea .form-control{
+    height: 50px;
+}
+
+.back-btn a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #4130e0;
+}
+
+/* ...style activity... */
+.container-activity{
+    width: 43%;
+    margin: 70px auto;
+    margin-left: 7rem;
+    padding: 20px;
+    border: 2px solid rgb(242 247 248);
+    background-color: #f2f6f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 5.5rem;
+    border-radius: 5px;
+}
+
+.activity-input{
+    margin-bottom: 20px;
+}
+
+.btn-wrap{
+    display: flex;
+    margin-left: -5.5rem;
+    margin-top: 1rem;
+}
+
+/* style category index page */
+
+.link-wrapper {
+    /* margin-bottom: 20px; */
+    margin-top: 2.8rem;
+    border: 2px solid #4c9db9;
+    width: 16%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    background-color: #4c9db9;
+    margin-left: 1rem;
+}
+
+.link-wrapper a{
+    color: #0b0c0c  ;
+}
+
+.link-wrapper:hover{
+    background-color: #3498db;
+    border: 2px solid #4c9db9;
+}
+
+.alert {
+    /* margin-bottom: 20px; */
+    margin-top: 1rem;
+    width: 60%;
+    margin-left: 1rem;
+}
+
+.index-table {
+    overflow-x: auto;
+}
+
+table {
+    /* width: 100%; */
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+
+th, td {
+    /* border: 1px solid #171515; */
+    padding: 12px;
+    text-align: left;
+    font-size: 13px;
+}
+
+th {
+    background-color: #bbbdc9;
+}
+
+.status {
+    display: flex;
+    align-items: center;  /* Align buttons vertically in the middle */
+}
+
+.edit-button, .delete-button {
+    padding: 8px 12px;
+    margin: 4px;
+    text-decoration: none;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    color: #0b0c0c;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.delete-button {
+    margin-left: 5px;
+}
+
+.edit-button:hover, .delete-button:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.edit-submit{
+    background-color: #4c9db9;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 1.6rem;
+    margin-top: 2.7rem;
+}
+
+.edit-submit:hover{
+    background-color: #1f95cb;
+}
+
+
+.edit-activity{
+    background-color: #4c9db9;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+}
+
+.edit-activity:hover{
+    background-color: #286f91;
+}
+
+/* style wildlifelist */
+.container-wildlife{
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid rgb(242 247 248);
+    background-color: #f2f6f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 7rem;
+    margin-top: 5.5rem;
+    border-radius: 5px;
+}
+
+.wildlife-input{
+    margin-bottom: 20px;
+}
+
+/* national park */
+.container-nationalPark{
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid rgb(242 247 248);
+    background-color: #f2f6f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 7rem;
+    /* margin-top: 5.5rem; */
+    border-radius: 5px;
+}
